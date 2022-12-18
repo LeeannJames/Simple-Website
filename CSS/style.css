@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	scroll-behavior: smooth;
+}
+.main{
+	width: 1170px;
+	margin:	auto;
+}
+header{
+	background: url(../img/background.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.nav{
+	float: right;
+	list-style: none;
+	margin-top: 30px;	
+}
+.nav li{
+	display: inline-block;
+}
+.nav li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size: 14px;
+}
+.nav li a:hover{
+	background: #fff;
+	color: #333;
+}
+.logo img{
+	width: 100px;
+	float: left;
+	height: auto;
+}
+.explore{
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.explore h1{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.explore a{
+	background: #54b5ae;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.explore a:hover{
+	letter-spacing: 6px;
+}
+section{
+	padding: 100px
+}
+.row{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.row .col150{
+	position: relative;
+	width: 48%;
+}
+.titleText{
+	color: #111;
+	font-size: 2em;
+	font-font-weight: 300; 
+}
+.titleText1{
+	color: #111;
+	margin-left: 30px; 
+	font-size: 2em;
+	font-font-weight: 300; 
+}
+.titleText2{
+	color: #111; 
+	text-align: center;
+	font-size: 2em;
+	font-font-weight: 300; 
+}
+.titleText span{
+	color: #54b5ae;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+.titleText1 span{
+	color: #54b5ae;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+.titleText2 span{
+	color: #54b5ae;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+.row .col150 .imgbx{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.row .col150 .imgbx img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.p1{
+	text-align: justify;
+	margin-left: 30px;
+}
+.p2{
+	text-align: justify;
+}
+.copyrightText{
+	padding: 8px 40px;
+	border-top: 100px solid rgba(0,0,0,0.1);
+	text-align: center;
+}
+.copyrightText p{
+	color: #333;
+}
+.copyrightText a{
+	color: #ff0157;
+	font-weight: 500px;
+	text-decoration: none;
+}
